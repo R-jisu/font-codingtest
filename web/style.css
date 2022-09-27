@@ -102,6 +102,7 @@ header {
     text-align: center;
     margin: 30px 0px;
     display: flex;
+    flex-direction: column;
 }
 
 .form_elem {
@@ -134,5 +135,12 @@ header {
     border: 0;
     border-radius: 1rem;
     box-sizing: border-box;
-    background: #dedede;
+    font-size: 1.0em;
+    background: #29323C;
+    color: white;
+}
+
+.form_elem button:hover {
+    cursor: pointer;
+    background: #637488;
 }
